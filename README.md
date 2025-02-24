@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @yourdevharsh aka Harsh K
 - 👀 I’m interested in building solutions 
-- 🌱 I’m currently learning JavaScript
+- 🌱 I’m currently learning Deep Learning
 - 💞️ I’m looking to collaborate on new projects
 - 📫 How to reach me ... email?
 - 😄 Pronouns: ... WTF!
