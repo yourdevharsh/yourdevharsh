@@ -35,5 +35,3 @@ You can connect with me through the following channels. I'm always happy to chat
 
 * **Email:** yourdevharsh@gmail.com
 * **LinkedIn:** [https://linkedin.com/in/yourdevharsh]([https://www.google.com/search?q=linkedin.com/in/your-profile](https://www.linkedin.com/in/yourdevharsh/))
-
-### 📊 My GitHub
