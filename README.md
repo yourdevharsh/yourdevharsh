@@ -12,10 +12,14 @@ I'm a developer focused on building innovative and user-centric solutions. From 
 
 Here are some of the technologies I'm proficient in:
 
-* **Backend:** Node.js, Express.js
-* **Frontend:** React, React Native, HTML5, CSS3, JavaScript/TypeScript
-* **Databases:** MongoDB, PostgreSQL
-* **AI & Machine Learning:** NumPy, Pandas, PyTorch, JAX
+| Skill Category            | Tools                                     |
+| ------------------------- | ------------------------------------------------------ |
+| **Languages**               | JavaScript, Python                                   |
+| **Backend**               | Node.js, Express.js                                    |
+| **Frontend**              | React, HTML5, CSS3, JavaScript |
+| **Databases**             | MongoDB, PostgreSQL                                   |
+| **AI & Machine Learning** | NumPy, Pandas, PyTorch, JAX, PyTorch                           |
+
 
 ### 📂 My Projects
 
