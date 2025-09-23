@@ -27,8 +27,9 @@ Here are some of the projects I've been working on. You can find more on my repo
 
 | Project             | Description                                                              |
 | ------------------- | ------------------------------------------------------------------------ |
-| **AutoTally** | An AI-powered mobile app to extract data from receipts directly to Excel. |
+| **wsp** | IPFS based A peer-to-peer chat application built with Go, Rust, and WebSockets for decentralized web. |
 | **Graphic AI** | A web app that generates animations from text prompts using generative AI. |
+| **AutoTally** | An AI-powered mobile app to extract data from receipts directly to Excel. |
 | **One Way** | A platform that connects users with similar goals using embedding similarity. |
 | **ExpressJS A-to-Z**| My learning journey through Express.js, from basic to advanced concepts. |
 | **Frontend-Bits** | A collection of mini frontend projects and UI components.                  |
