@@ -18,7 +18,7 @@ Here are some of the technologies I'm proficient in:
 | **Backend**               | Node.js, Express.js                                    |
 | **Frontend**              | React, HTML5, CSS3, JavaScript |
 | **Databases**             | MongoDB, PostgreSQL                                   |
-| **AI & Machine Learning** | NumPy, Pandas, PyTorch, JAX, PyTorch                           |
+| **Deep Learning** | NumPy, Pandas, PyTorch, JAX, PyTorch                           |
 
 
 ### 📂 My Projects
