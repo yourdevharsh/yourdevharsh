@@ -1,42 +1,48 @@
-# Hi, I'm Harsh 👋
+# 👋 Hi, I'm Harsh  
+**Full-Stack Developer & AI Engineer**
 
-I'm a developer focused on building innovative and user-centric solutions. From AI-powered applications to interactive frontend experiences, I enjoy building solutions from code.
+I build **AI-powered applications**, **interactive frontend tools**, and **scalable backend systems**.  
+My work combines **practical problem-solving** with a strong focus on **user experience, automation, and modern web technologies**.
 
-### 🚀 What I'm Currently Focused On
+---
 
-* 🌱 **Learning:** Learning Deep Learning and exploring its applications in real-world projects.
-* 💞️ **Collaborating:** I'm always open to collaborating on new and exciting open-source projects. If you have an idea, feel free to reach out!
-* 🔭 **Building:** Actively developing and maintaining the projects listed below.
+### 🚀 **What I Do**
+- ⚙️ Develop **full-stack web applications** with real-world use cases  
+- 🤖 Build **AI-driven features** (OCR, LLM tools, embeddings, automation)
+- 🧠 Explore **Deep Learning** and implement models from scratch  
+- 🤝 Open to collaboration on impactful AI or web engineering projects
 
-### 🛠️ My Tech Stack
+---
 
-Here are some of the technologies I'm proficient in:
+### 🛠️ **Tech Expertise**
 
-| Skill Category            | Tools                                     |
-| ------------------------- | ------------------------------------------------------ |
-| **Languages**               | JavaScript, Python                                   |
-| **Backend**               | Node.js, Express.js                                    |
-| **Frontend**              | React, HTML5, CSS3, JavaScript |
-| **Databases**             | MongoDB, PostgreSQL                                   |
-| **Deep Learning** | NumPy, Pandas, PyTorch, JAX, PyTorch                           |
+| Category | Technologies |
+|----------|--------------|
+| **Languages** | JavaScript, Python, Go, Rust |
+| **Backend** | Node.js, Express.js |
+| **Frontend** | React, HTML5, CSS3, JavaScript |
+| **Databases** | MongoDB, PostgreSQL |
+| **AI / ML** | PyTorch, NumPy, Pandas, JAX |
+| **Tools** | Puppeteer, FFmpeg, Socket.io, IPFS |
 
+---
 
-### 📂 My Projects
+### 📌 **Highlighted Projects**
 
-Here are some of the projects I've been working on. You can find more on my repositories tab!
+| Project | Description |
+|---------|-------------|
+| **wsp** | Decentralized P2P chat on IPFS using Go, Rust, WebSockets, and a web client. |
+| **Graphic AI** | Generates GSAP-based animations from text prompts using LLMs, renders via Puppeteer & exports video using FFmpeg. |
+| **AutoTally** | OCR + LLM tool that extracts receipt info and automatically fills Excel sheets. |
+| **One Way** | AI-driven platform matching users based on embedding similarity; includes chat, funding, and goal-tracking tools. |
+| **Express A-to-Z** | Complete Express.js microservices collection from beginner to production-level APIs. |
+| **Frontend Bits** | A library of mini UI tools, animations, and frontend components. |
 
-| Project             | Description                                                              |
-| ------------------- | ------------------------------------------------------------------------ |
-| **wsp** | IPFS based A peer-to-peer chat application built with Go, Rust, and WebSockets for decentralized web. |
-| **Graphic AI** | A web app that generates animations from text prompts using generative AI. |
-| **AutoTally** | An AI-powered mobile app to extract data from receipts directly to Excel. |
-| **One Way** | A platform that connects users with similar goals using embedding similarity. |
-| **ExpressJS A-to-Z**| My learning journey through Express.js, from basic to advanced concepts. |
-| **Frontend-Bits** | A collection of mini frontend projects and UI components.                  |
+---
 
-### 📫 How to Reach Me
+### 📫 **Let’s Connect**
 
-You can connect with me through the following channels. I'm always happy to chat!
+- 📧 **Email:** yourdevharsh@gmail.com  
+- 💼 **LinkedIn:** https://linkedin.com/in/yourdevharsh  
 
-* **Email:** yourdevharsh@gmail.com
-* **LinkedIn:** [https://linkedin.com/in/yourdevharsh]([https://www.google.com/search?q=linkedin.com/in/your-profile](https://www.linkedin.com/in/yourdevharsh/))
+Feel free to reach out if you’re interested in **AI-powered applications**, **full-stack engineering**, or **collaborative open-source projects**.
