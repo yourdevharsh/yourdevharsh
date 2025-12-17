@@ -23,7 +23,7 @@ My work combines **practical problem-solving** with a strong focus on **user exp
 | **Frontend** | React, HTML5, CSS3, JavaScript |
 | **Databases** | MongoDB, PostgreSQL |
 | **AI / ML** | PyTorch, NumPy, Pandas, JAX |
-| **Tools** | Puppeteer, FFmpeg, Socket.io, IPFS |
+| **Tools** | gRPC, Redis, Git|
 
 ---
 
