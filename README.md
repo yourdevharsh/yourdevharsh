@@ -37,6 +37,20 @@ I build **AI-powered applications** and **scalable backend systems**.
 
 ---
 
+### 📊 github stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourdevharsh&show_icons=true&theme=default&hide_border=true&title_color=000000&icon_color=555555&text_color=333333&bg_color=ffffff" height="160"/>
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourdevharsh&layout=compact&theme=default&hide_border=true&title_color=000000&text_color=333333&bg_color=ffffff" height="160"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=yourdevharsh&theme=default&hide_border=true&stroke=eeeeee&ring=555555&fire=333333&currStreakLabel=000000" width="55%"/>
+</p>
+
+---
+
 ### 📫 **Connect here**
 
 - 📧 **Email:** yourdevharsh@gmail.com  
