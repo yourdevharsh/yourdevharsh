@@ -21,19 +21,19 @@
 
 ### 🚀 Highlighted Open Source & Projects
 
-#### [Graphic AI](https://github.com/yourdevharsh) — *AI-Powered Prompt-to-Video Generator*
+#### [Graphic AI](https://github.com/yourdevharsh/Graphic-AI) — *AI-Powered Prompt-to-Video Generator*
 > A high-throughput video generation pipeline utilizing distributed task queues and aggressive API gateway caching.
 - **Impact:** Slashed end-to-end video delivery latency by 98% (from 10s to <200ms) and reduced redundant LLM API costs.
 - **Scale:** Scaled video production capacity by 400%, supporting 1,000+ concurrent user requests per second with zero dropped payloads by decoupling workloads via BullMQ.
 - **Tech Used:** Node.js, Express, ffmpeg, GSAP, Gemini API, Redis, BullMQ.
 
-#### [One Way](https://github.com/yourdevharsh) — *AI-Driven Goal Collaboration Platform*
+#### [One Way](https://github.com/yourdevharsh/One-Way) — *AI-Driven Goal Collaboration Platform*
 > A highly concurrent platform featuring semantic user matchmaking and real-time chat infrastructure.
 - **Impact:** Achieved sub-50ms login latencies and reduced primary database read load by 90% via a cache-first authentication layer.
 - **Scale:** Scaled messaging to 10,000+ concurrent connections with <20ms delivery latency by offloading chat history writes to Apache Cassandra.
 - **Tech Used:** React, Node.js, PostgreSQL, Cassandra, Stripe, Socket.IO, Gemini API, Hugging Face.
 
-#### [wsp](https://github.com/yourdevharsh) — *Decentralized P2P Chat*
+#### [wsp](https://github.com/yourdevharsh/wsp) — *Decentralized P2P Chat*
 > A serverless, peer-to-peer messaging system designed to navigate restricted NATs using libp2p.
 - **Impact:** Accomplished sub-2ms cross-process latency and zero dropped payloads for Inter-Process Communication (IPC) using strongly-typed gRPC APIs.
 - **Scale:** Hydrated 1,000+ historical UI messages in <15ms by embedding SQLite for local state persistence and enforcing cryptographic Message ID deduplication.
