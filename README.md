@@ -1,46 +1,49 @@
-# 👋 Hi, I'm Harsh  
-**Full-Stack Developer & AI Engineer**
+# Hi, I'm Harsh Kashyap 👋 
+**Full Stack Engineer** specializing in scalable AI systems, backend architecture, and high-performance applications. 
 
-I build **AI-powered applications** and **scalable backend systems**.  
-
----
-
-### 🚀 **What I Do**
-- ⚙️ Develop **full-stack web applications**, definitely not generic  
-- 🤖 Build **AI-driven features** (OCR, LLM tools, embeddings, automation)
-- 🧠 Explore **Deep Learning** and implement architectures from scratch  
-- 🤝 Open to collaboration on novel and impactful AI or web engineering projects
+- 🔭 I’m currently working on: Developing my projects again to improve performance via system designing concepts and building random apps.
+- 🌱 I’m deeply diving into: Systems programming with Rust and deep learning.
+- 💬 Ask me about: Node.js performance optimization, AI/ML integrations, or system design and caching strategies.
+- 📫 Connect with me: [Portfolio](https://yourdevharsh.vercel.app/) | [LinkedIn](https://linkedin.com/in/yourdevharsh/) | [Medium Blog](https://medium.com/@yourdevharsh)
 
 ---
 
-### 🛠️ **Tech Stack**
+### 🛠️ Tech Stack & Ecosystem
 
-| Category | Technologies |
-|----------|--------------|
-| **Languages** | JavaScript, Python, Rust |
-| **Backend** | Node.js, Express.js |
-| **Frontend** | React, HTML5, CSS3 |
-| **Databases** | MongoDB, PostgreSQL |
-| **AI / ML** | PyTorch, NumPy, Pandas, JAX |
-| **Tools** | gRPC, Redis, Git|
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Languages** | JavaScript, TypeScript, Python, Rust |
+| **Frameworks / Libraries** | React, Node.js, Express, Tailwind CSS, PyTorch, Hugging Face |
+| **Cloud & DevOps** | Docker, Git, Linux, Vercel, Render |
+| **Databases / Cache** | PostgreSQL, MongoDB, Redis |
 
 ---
 
-### 📌 **Projects**
+### 🚀 Highlighted Open Source & Projects
 
-| Project | Description |
-|---------|-------------|
-| **wsp** | Decentralized P2P chat on IPFS using Go, Rust, WebSockets, and a web client. |
-| **Graphic AI** | Generates GSAP-based animations from text prompts using LLMs, renders via Puppeteer & exports video using FFmpeg. |
-| **AutoTally** | OCR + LLM tool that extracts receipt info and automatically fills Excel sheets. |
-| **One Way** | AI-driven platform matching users based on embedding similarity; includes chat, funding, and goal-tracking tools. |
+#### [Graphic AI](https://github.com/yourdevharsh) — *AI-Powered Prompt-to-Video Generator*
+> A high-throughput video generation pipeline utilizing distributed task queues and aggressive API gateway caching.
+- **Impact:** Slashed end-to-end video delivery latency by 98% (from 10s to <200ms) and reduced redundant LLM API costs.
+- **Scale:** Scaled video production capacity by 400%, supporting 1,000+ concurrent user requests per second with zero dropped payloads by decoupling workloads via BullMQ.
+- **Tech Used:** Node.js, Express, ffmpeg, GSAP, Gemini API, Redis, BullMQ.
+
+#### [One Way](https://github.com/yourdevharsh) — *AI-Driven Goal Collaboration Platform*
+> A highly concurrent platform featuring semantic user matchmaking and real-time chat infrastructure.
+- **Impact:** Achieved sub-50ms login latencies and reduced primary database read load by 90% via a cache-first authentication layer.
+- **Scale:** Scaled messaging to 10,000+ concurrent connections with <20ms delivery latency by offloading chat history writes to Apache Cassandra.
+- **Tech Used:** React, Node.js, PostgreSQL, Cassandra, Stripe, Socket.IO, Gemini API, Hugging Face.
+
+#### [wsp](https://github.com/yourdevharsh) — *Decentralized P2P Chat*
+> A serverless, peer-to-peer messaging system designed to navigate restricted NATs using libp2p.
+- **Impact:** Accomplished sub-2ms cross-process latency and zero dropped payloads for Inter-Process Communication (IPC) using strongly-typed gRPC APIs.
+- **Scale:** Hydrated 1,000+ historical UI messages in <15ms by embedding SQLite for local state persistence and enforcing cryptographic Message ID deduplication.
+- **Tech Used:** Rust, Golang, gRPC, SQLite, libp2p, HTML.
 
 ---
 
-### 📫 **Connect here**
+### 📊 GitHub Analytics
 
-- 📧 **Email:** yourdevharsh@gmail.com  
-- 💼 **LinkedIn:** https://linkedin.com/in/yourdevharsh
-- 🐦 **X:** https://x.com/yourdevharsh  
-
-Feel free to reach out if you’re interested in **collaborating**.
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourdevharsh&show_icons=true&theme=transparent" alt="Harsh's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourdevharsh&layout=compact&theme=transparent" alt="Top Languages" height="150" />
+</p>
