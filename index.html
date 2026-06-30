@@ -215,14 +215,14 @@
       font-optical-sizing: auto;
       font-weight: 400;
       font-style: normal;
-      font-size: 14px;
+      font-size: 15px;
     }
   </style>
 </head>
 
-<script type="text/javascript" charset="utf-8">
+<!-- <script type="text/javascript" charset="utf-8">
   const defaultThemeCheck = window.matchMedia('(prefers-color-scheme:dark)').matches;
-</script>
+</script> -->
 
 <body class="jose">
   <header id="home">
@@ -234,12 +234,12 @@
         <li><a aria-label="projects" href="#projects">P</a></li>
       </ul>
     </nav>
-    <section class="themeChanger">
+    <!-- <section class="themeChanger">
       <div class="d2l">
         <button class="slider"></button>
       </div>
 
-    </section>
+    </section> -->
     <h1 contenteditable="true">Hey there, I'm Harsh</h1>
     <p><b>Full-Stack Engineer</b> who enjoys solving complex problems at the
       intersection of Web, AI and Systems.</p>
@@ -380,33 +380,33 @@
   </script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      const themeButton = document.querySelector('.slider');
-      const body = document.querySelector('body');
+      // const themeButton = document.querySelector('.slider');
+      // const body = document.querySelector('body');
 
-      const slider = document.querySelector('.d2l');
-      const linkList = document.links;
+      // const slider = document.querySelector('.d2l');
+      // const linkList = document.links;
 
-      slider.addEventListener('click', () => {
-        if (slider.classList.contains('off')) {
-          console.log("off")
-          slider.classList.remove('off');
-          slider.classList.add('on');
-          body.classList.add('dark');
-          for (let link of linkList) {
-            link.classList.remove('lightLink');
-            link.classList.add('darkLink');
-          }
-        } else {
-          console.log("on")
-          slider.classList.remove('on');
-          slider.classList.add('off');
-          body.classList.remove('dark');
-          for (let link of linkList) {
-            link.classList.remove('darkLink');
-            link.classList.add('lightLink');
-          }
-        }
-      });
+      // slider.addEventListener('click', () => {
+      //   if (slider.classList.contains('off')) {
+      //     console.log("off")
+      //     slider.classList.remove('off');
+      //     slider.classList.add('on');
+      //     body.classList.add('dark');
+      //     for (let link of linkList) {
+      //       link.classList.remove('lightLink');
+      //       link.classList.add('darkLink');
+      //     }
+      //   } else {
+      //     console.log("on")
+      //     slider.classList.remove('on');
+      //     slider.classList.add('off');
+      //     body.classList.remove('dark');
+      //     for (let link of linkList) {
+      //       link.classList.remove('darkLink');
+      //       link.classList.add('lightLink');
+      //     }
+      //   }
+      // });
 
       const currentYearSpan = document.getElementById("currentYearSpan");
 
