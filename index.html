@@ -241,7 +241,7 @@
 
     </section>
     <h1 contenteditable="true">Hey there, I'm Harsh</h1>
-    <p><b>Deep Learning Researcher</b> and <b>Full-Stack Developer</b> who enjoys solving complex problems at the
+    <p><b>Full-Stack Engineer</b> who enjoys solving complex problems at the
       intersection of Web, AI and Systems.</p>
     <p>Email: <b><a href="mailto:yourdevharsh@gmail.com">yourdevharsh@gmail.com</a></b></p>
     <p>GitHub: <b><a href="https://github.com/yourdevharsh">https://github.com/yourdevharsh</a></b></p>
@@ -323,7 +323,13 @@
 
     <section class="experience" id="exp">
       <h3>Experience</h3>
-      <p><b>ML Engineer</b> <span style="float: right; padding-right: 10px;">ACIC, SGT University (Feb 2025 - Jul 2025)</span></p>
+      <p><b>Full-Stack Engineer</b> <span style="float: right; padding-right: 10px;">Prodesk IT, Noida (Apr 2026 - Present)</span></p>
+      <p>Developed a web app for psychiatrists and researchers that analyzes clinical‐audio to detect depression and emotions over time. Extracted acoustic features (<b>OpenSMILE</b>, <b>Librosa</b>), used a <b>HuggingFace</b> model for minute‐wise emotion prediction, and provided visual insights—all running locally.</p>
+
+      <p><b>Full-Stack Engineer</b> <span style="float: right; padding-right: 10px;">SR Engineering, New Delhi (Feb 2026 - Apr 2026)</span></p>
+      <p>Developed a web app for psychiatrists and researchers that analyzes clinical‐audio to detect depression and emotions over time. Extracted acoustic features (<b>OpenSMILE</b>, <b>Librosa</b>), used a <b>HuggingFace</b> model for minute‐wise emotion prediction, and provided visual insights—all running locally.</p>
+
+      <p><b>ML Engineer</b> <span style="float: right; padding-right: 10px;">Atal Community Innovation Centre, Gurugram (Feb 2025 - Jul 2025)</span></p>
       <p>Developed a web app for psychiatrists and researchers that analyzes clinical‐audio to detect depression and emotions over time. Extracted acoustic features (<b>OpenSMILE</b>, <b>Librosa</b>), used a <b>HuggingFace</b> model for minute‐wise emotion prediction, and provided visual insights—all running locally.</p>
     </section>
     <hr>
@@ -350,7 +356,7 @@
 
   <footer>
     <section>
-      <p>Your Dev Harsh &copy; 2024</p>
+      <p>Your Dev Harsh &copy; <span id="currentYearSpan"></span></p>
     </section>
   </footer>
   <script type="text/javascript" charset="utf-8">
@@ -400,7 +406,12 @@
             link.classList.add('lightLink');
           }
         }
-      })
+      });
+
+      const currentYearSpan = document.getElementById("currentYearSpan");
+
+      currentYearSpan.innerHTML = new Date().getFullYear();
+
     });
   </script>
 </body>
