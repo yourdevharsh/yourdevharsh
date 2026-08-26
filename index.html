@@ -3,19 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Description of my coding."
-    />
+    <meta name="description" content="Description of my coding." />
     <meta
       name="keywords"
       content="Resume, SEO, JavaScript, Full Stack Developer, Artificial Intelligence"
     />
     <meta property="og:title" content="My Resume - Your Dev Harsh" />
-    <meta
-      property="og:description"
-      content="Description of my coding."
-    />
+    <meta property="og:description" content="Description of my coding." />
     <meta property="og:image" content="/Assets/logo.webp" />
     <meta property="og:url" content="https://yourdevharsh.vercel.app" />
     <link rel="canonical" href="https://yourdevharsh.vercel.app" />
@@ -27,36 +21,37 @@
         --primary-color: #222;
         --secondary-color: #e9e9e9;
         --tertiary-color: #1da1fd;
+        /* --tertiary-color: #ff0c84; */
       }
 
       body {
-        padding: 5px 30px 0px 20px;
+        padding: 0px 0px 0px 20px;
         background: var(--secondary-color);
         color: var(--primary-color);
         line-height: 1.6;
         font-size: large;
+        text-align: justify;
+      }
+
+      header {
+        position: sticky;
+        top: 0;
+        float: right;
+        height: 100vh;
+        width: 30%;
       }
 
       a {
-        text-decoration-style: dotted;
         text-decoration-color: var(--tertiary-color);
+        text-wrap: wrap;
       }
 
-      .dark {
-        background: var(--primary-color);
-        color: var(--secondary-color);
+      main,
+      footer {
+        width: 65%;
       }
 
-      .lightLink {
-        color: var(--primary-color);
-      }
-
-      .darkLink {
-        color: var(--secondary-color);
-      }
-
-      main a,
-      header p a {
+      a {
         color: black;
       }
 
@@ -64,78 +59,22 @@
         padding: 10px 0;
       }
 
-      .skillsBox {
-        display: inline-block;
-        min-width: 45vw;
-        max-width: 100vw;
-      }
-
-      .skill-item {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 95%;
-      }
-
-      .skill-name {
-        flex-basis: 40%;
-      }
-
-      .skill-slider {
-        flex-basis: 58%;
-        -webkit-appearance: none;
-        appearance: none;
-        width: 100%;
-        height: 6px;
-        background: #bdbcbc;
-        outline: none;
-        border-radius: 5px;
-      }
-
-      .skill-slider::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 12px;
-        height: 12px;
-        background: var(--tertiary-color);
-        cursor: pointer;
-        border-radius: 50%;
-      }
-
-      .skill-slider::-moz-range-thumb {
-        width: 18px;
-        height: 18px;
-        background: var(--tertiary-color);
-        cursor: pointer;
-        border-radius: 50%;
-        border: none;
-      }
-
-      @media (max-width: 768px) {
-        .skill-item {
-          flex-direction: column;
-          align-items: flex-start;
+      @media (max-width: 868px) {
+        header {
+          position: static;
+          top: 0;
+          float: none;
+          height: auto;
+          width: auto;
         }
 
-        .skill-name {
-          margin-bottom: 5px;
-          flex-basis: auto;
-          width: 100%;
+        main,
+        footer {
+          width: auto;
         }
 
-        .skill-slider {
-          flex-basis: auto;
-          width: 100%;
-        }
-
-        .skillsBox {
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
-        }
-
-        header h1 {
-          font-size: 2.5em;
+        body {
+          padding: 0px 20px 0px 20px;
         }
       }
     </style>
@@ -164,7 +103,6 @@
       </p>
       <p><b>New Delhi, India</b></p>
     </header>
-    <hr />
 
     <main>
       <!-- <section class="summary">
@@ -177,109 +115,6 @@
       <p>Let's build something revolutionary?</p>
     </section>
     <hr> -->
-
-      <section class="skillset" id="skills">
-        <h3>Skillset</h3>
-        <div class="skillsBox">
-          <h4>Programming Languages:</h4>
-          <div class="skill-item">
-            <label for="js" class="skill-name">JavaScript</label>
-          </div>
-          <div class="skill-item">
-            <label for="python" class="skill-name">Python</label>
-          </div>
-          <!-- <div class="skill-item">
-          <label for="cpp" class="skill-name">C++</label>
-          <input type="range" value="6bled id="cpp" class="skill-slider">
-        </div> -->
-        </div>
-
-        <div class="skillsBox">
-          <h4>Frontend:</h4>
-          <div class="skill-item">
-            <label for="react" class="skill-name">React</label>
-          </div>
-          <div class="skill-item">
-            <label for="htmlcss" class="skill-name">HTML/CSS</label>
-          </div>
-        </div>
-
-        <div class="skillsBox">
-          <h4>Backend:</h4>
-          <div class="skill-item">
-            <label for="nodejs" class="skill-name">NodeJS</label>
-          </div>
-          <div class="skill-item">
-            <label for="express" class="skill-name">Express</label>
-          </div>
-        </div>
-
-        <div class="skillsBox">
-          <h4>Database:</h4>
-          <div class="skill-item">
-            <label for="postgres" class="skill-name">PostgreSQL</label>
-          </div>
-          <div class="skill-item">
-            <label for="mongo" class="skill-name">MongoDB</label>
-          </div>
-        </div>
-      </section>
-
-      <hr />
-
-      <section class="experience" id="exp">
-        <h3>Experience</h3>
-        <p>
-          <b>Full-Stack Engineer</b>
-          <span style="float: right; padding-right: 10px"
-            >Prodesk IT, Noida (Apr 2026 - Present)</span
-          >
-        </p>
-        <p>
-          Developed a web app for psychiatrists and researchers that analyzes
-          clinical‐audio to detect depression and emotions over time. Extracted
-          acoustic features (<b>OpenSMILE</b>, <b>Librosa</b>), used a
-          <b>HuggingFace</b> model for minute‐wise emotion prediction, and
-          provided visual insights—all running locally.
-        </p>
-
-        <p>
-          <b>Full-Stack Engineer</b>
-          <span style="float: right; padding-right: 10px"
-            >SR Engineering, New Delhi (Feb 2026 - Apr 2026)</span
-          >
-        </p>
-        <p>
-          Developed a web app for psychiatrists and researchers that analyzes
-          clinical‐audio to detect depression and emotions over time. Extracted
-          acoustic features (<b>OpenSMILE</b>, <b>Librosa</b>), used a
-          <b>HuggingFace</b> model for minute‐wise emotion prediction, and
-          provided visual insights—all running locally.
-        </p>
-
-        <p>
-          <b>ML Engineer</b>
-          <span style="float: right; padding-right: 10px"
-            >Atal Community Innovation Centre, Gurugram (Feb 2025 - Jul
-            2025)</span
-          >
-        </p>
-        <p>
-          Developed a web app for psychiatrists and researchers that analyzes
-          clinical‐audio to detect depression and emotions over time. Extracted
-          acoustic features (<b>OpenSMILE</b>, <b>Librosa</b>), used a
-          <b>HuggingFace</b> model for minute‐wise emotion prediction, and
-          provided visual insights—all running locally.
-        </p>
-      </section>
-      <hr />
-
-      <section class="education">
-        <h3>Education</h3>
-        <p>B.Tech. in Computer Science and Engineering</p>
-        <p>Some Technology University (2022-2026)</p>
-      </section>
-      <hr />
 
       <section class="projects" id="projects">
         <h3>Projects</h3>
@@ -299,20 +134,45 @@
           </li>
         </ul>
       </section>
-    </main>
-    <hr />
 
-    <footer>
-      <section>
-        <p>&copy; <span id="currentYearSpan"></span></p>
+      <hr />
+
+      <section class="experience" id="exp">
+        <h3>Experience</h3>
+        <p>
+          <b>Full-Stack Engineer</b>
+          <span style="float: right; padding-right: 0px"
+            >Prodesk IT, Noida (Apr 2026 - Present)</span
+          >
+        </p>
+        <p>Worked on multiple client projects using React and Node.js.</p>
+
+        <p>
+          <b>Full-Stack Engineer</b>
+          <span style="float: right; padding-right: 0px"
+            >SR Engineering, New Delhi (Feb 2026 - Apr 2026)</span
+          >
+        </p>
+        <p>Developed complete website for company using Node.js.</p>
+
+        <p>
+          <b>ML Engineer</b>
+          <span style="float: right; padding-right: 0px"
+            >Atal Community Innovation Centre, Gurugram (Feb 2025 - Jul
+            2025)</span
+          >
+        </p>
+        <p>
+          Researched on effects of depression on voice of person using machine
+          learning using PyTorch.
+        </p>
       </section>
-    </footer>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const currentYearSpan = document.getElementById("currentYearSpan");
 
-        currentYearSpan.innerHTML = new Date().getFullYear();
-      });
-    </script>
+      <!-- <section class="education">
+        <h3>Education</h3>
+        <p>B.Tech. in Computer Science and Engineering</p>
+        <p>Some Technology University (2022-2026)</p>
+      </section> -->
+    </main>
   </body>
 </html>
